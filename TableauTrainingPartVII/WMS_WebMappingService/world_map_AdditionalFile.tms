@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<mapsource inline='true' source-platform='win' version='8.3' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <!-- build 8200.14.0925.1717                                -->
+  <connection class='OGC-WMS' inline='true' offline='' port='80' server='www2.demis.nl' url='/wms/wms.asp?wms=WorldMap&amp;' use-tiled-maps='true' />
+  <properties />
+  <mapsource-defaults version='8.3'>
+    <style>
+      <style-rule element='map-layer'>
+        <format attr='enabled' id='Bathymetry' value='true' />
+      </style-rule>
+    </style>
+  </mapsource-defaults>
+</mapsource>

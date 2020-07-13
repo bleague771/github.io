@@ -1,0 +1,596 @@
+<html>
+<head>
+
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+<h1>Byrd Data Visualization Lab</h1>
+<h2>CSoL Data Visualization Workshop</h2>
+<h2>May 20 - 24, 2019</h2>
+<a name="top"</a>
+<center>
+	<a href="#WalmartChallenge">Walmart Sales Visualization Challenge</a> | 
+	<a href="#TopicsWorksheets">Topics Worksheets </a>| 
+	<a href="#OtherDataVisChallenges">Other Data Visualization Challenges</a> | 
+	<a href="#DataSources">Data Sources (Short List) </a>
+	<a href="#WorkshopSlides">Daily Workshop Slides</a> | 
+	<a href="#DataVisDesignActivityWorksheets">Data Visualization Activity Worksheets </a> | 
+	<a href="#OverviewAndKeyConcepts"> Data Visualization Activity Worksheets (Overview & Key Concepts)</a> | 
+	<a href="#PivotTablesAndCharts">Excel Pivot Tables and Pivot Charts (Optional) </a> | 
+	<a href="#TableauTraining">Tableau Training </a> |
+	<a href="Deliverables.html" target="blank">Workshop Deliverables</a>
+</center>
+<h2>Introduction to Tableau [<a href="#top">Top</a>]</h2>
+Optional Exercise: <a href="Introduction_VisualizingMusicStoreSales.pdf" target="blank">Visualizing Music Store Sales</a> <br>
+Data: <a href="MusicData.xlsx">Music Data</a> (To download: right click, Save link as)<br>
+[<a href="CSolWorkshop_IntroductionToTableauDesktop.pdf" target="blank">Slides</a>]<Br>
+<h2>Introduction to the Data Visualization Process</h2>
+
+<a name="WalmartChallenge"</a>
+<h3>Walmart Sales Visualization Challenge [<a href="#top">Top</a>]</h3>
+<a href="WalmartData/WalmartData.html" target="blank">Walmart Training Data</a> <br><br>
+
+Book: <a href="http://media.espora.org/mgoblin_media/media_entries/1633/Visualizing_Data.pdf" target="blank">Visualizing Data</a> by Ben Fry <br>
+If you encounter problems with the link then Google: Visualizing Data by Ben Fry pdf<br>
+<hr>
+<a name="TopicsWorksheets" </a>
+<h3>Topics Worksheets [<a href="#top">Top</a>]</h3>
+<a href="TopicsWorksheets.html" target="blank"> Workshop Proposals:</a> Team Proposal Slides, Workshop Deliverables<br>
+<br>
+<hr>
+<a name="OtherDataVisChallenges"</a>
+<h3>Data Visualization Challenges [<a href="#top">Top</a>]</h3>
+<ul>
+	<li><a href="https://www.transportation.gov/solve4safety/challenge" target="blank">Solving for Safety</a></li>
+	<li><a href="https://2018.indybigdata.com/visualization-challenge/" target="blank">2018 Indy Big Data Visualization Challenge</a></li>
+</ul>
+<a name="DataSources (Short List)"</a>
+Data Sources  [<a href="#top">Top</a>]<br>
+<ul>
+	<li><a href="https://www.data.gov" target="blank">Data.gov</a></li>
+	<li><a href="https://www.cdc.gov/datastatistics/index.html" target="blank">Centes for Disease Control and Prevention</a></li>
+	<li><a href="https://www.cdc.gov/nchs/ahcd/datasets_documentation_related.htm#data" target="blank">Ambulatory Health Care Data</a></li>
+	<li><a href="https://www.nsf.gov/statistics/2017/nsf17310/data.cfm" target="blank">Women, minorities and persons with disabilities in Science and Engineering</a></li>
+	<li><a href="https://www.forbes.com/sites/bernardmarr/2018/02/26/big-data-and-ai-30-amazing-and-free-public-data-sources-for-2018/#659e87155f8a" target="blank">Forbes Big Data and AI: 30 Public data sources for 2018</a></li>
+	<li><a href="https://public.tableau.com/s/resources?qt-overview_resources=1" target="blank">Public data from Tableau</a></li>
+	<li><a href="https://www.data.gov/education/" target="blank">Higher Education Datasets</a></li>
+</ul><br>
+<hr>
+<a name="Workshop Slides"</a>
+<h3>Workshop Slides [<a href="#top">Top</a>]</h3>
+<a href="Slides/CSol_DataViz_Monday_May20_2019_slides.pdf" target="blank">Day 1</a> | 
+<a href="Slides/CSol_DataViz_Tuesday_May21_2019_slides.pdf" target="blank">Day 2 </a>| 
+<a href="Slides/CSol_DataViz_Wednesday_May22_2019_slides.pdf" target="blank">Day 3</a> | Day 4  |
+<a href="Slides/CSol_DataViz_Friday_May24_2019_slides.pdf" target="blank">Day 5</a>
+<br>
+<hr>
+<a name="DataVisDesignActivityWorksheets"</a>
+<h3>Data Visualization Worksheets [<a href="#top">Top</a>]</h3>
+<strong>
+NOTICE: <font color="red">These Worksheets are un-published work and considered new and proprietary. Thank you in advance for NOT sharing the worksheets outside of the workshop.
+</font>
+</strong>
+<br>If you are an instructor and you are interested in using the worksheets in your class, please contact me directly at vlbyrd@purdue.edu
+<a name="OverviewAndKeyConcepts"</a>
+<a name="HigherOrderThinking"</a>
+<Br><Br><strong>Design Data Visualization Worksheets: </strong> <a href="DataVisWorksheets_Overview.html" target="blank">Overview & Key Concepts</a><Br><Br>
+<table>
+  <tr>
+    <th>Visualization Stage</th>
+    <th>Design Activity</th>
+    <th>Assessment</th>
+   </tr>
+  <tr><!--ACQUIRE -->
+    <td>ACQURE</td>
+    <td><a href="Worksheets/Acquire_ActivityWorksheet_CSoL2019a.pdf" target="blank">Acquire Worksheet</a></td>
+    <td><a href="HigherOrderThinking/Acquire_HigherOrderThinking_Assessment_Worksheet_DoNotShare_v2.pdf" target="blank"> Higher Order Thinking </a> | 
+    	<a href="https://forms.gle/a4dtKgDSkEN65kZs8" target="blank">URL </a> </td> 
+  </tr>
+  <tr><!--PARSE -->
+    <td>PARSE</td>
+    <td><a href="Worksheets/Parse_ActivityWorksheet_CSoL2019a.pdf" target="blank">Parse Worksheet</a></td>
+    <td><a href="HigherOrderThinking/Parse_HigherOrderThinking_Assessment_Worksheet_DoNotShare_v2.pdf" target="blank"> Higher Order Thinking </a>  | 
+    	<a href="https://forms.gle/2HDviXB3vRa4YGm28" target="blank"> URL </a> </td> 
+  </tr>
+  <tr><!--MINE -->
+    <td>MINE</td>
+    <td><a href="Worksheets/Mine_ActivityWorksheet_CSoL2019a.pdf" target="blank">Mine Worksheet</a></td>
+    <td><a href="HigherOrderThinking/Mine_HigherOrderThinking_Assessment_Worksheet_DoNotShare_v2.pdf" target="blank"> Higher Order Thinking </a> | 
+    	<a href="https://forms.gle/wYW3Xweq4wP6PnQ27" target="blank"> URL </a> </td> 
+  </tr>
+  <tr><!--FILTER & REPRESENT-->
+    <td>FILTER & REPRESENT</td>
+    <td><a href="Worksheets/Filter&Represent_ActivityWorksheet_CSoL2019a.pdf" target="blank">Filter & Represent Worksheet</a></td>
+    <td> Filter Higher Order Thinking: 
+    	<a href="HigherOrderThinking/Filter_HigherOrderThinking_Assessment_Worksheet_DoNotShare_v2.pdf" target="blank"> Worksheet </a> | 
+    	<a href="https://forms.gle/c8XLoHGB972zQ6mD9" target="blank"> URL </a> <br> 
+    	Represent Higher Order Thinking: 
+    	<a href="HigherOrderThinking/Represent_HigherOrderThinking_Assessment_Worksheet_DoNotShare_v2.pdf" target="blank"> Worksheet </a> | 
+    	<a href="https://forms.gle/RWiFCbtdLy136sBaA" target="blank"> URL </a> </td> 
+  </tr>
+  <tr><!-- REFINE-->
+    <td>REFINE</td>
+    <td><a href="Worksheets/Refine_ActivityWorksheet_CSoL2019a.pdf" target="blank">Refine Worksheet</a></td>
+    <td>
+    	<a href="HigherOrderThinking/Refine_HigherOrderThinking_Assessment_Worksheet_DoNotShare_v2.pdf" target="blank"> Higher Order Thinking </a> | 
+    	<a href="https://forms.gle/Eggd4GqgWZfm8DQR7" target="blank"> URL </a> </td> 
+  </tr>
+  <tr><!-- INTERACT-->
+    <td>INTERACT</td>
+    <td><a href="Worksheets/Interact_ActivityWorksheet_CSoL2019a.pdf" target="blank">Interact Worksheet</a></td>
+    <td>
+    	<a href="HigherOrderThinking/Interact_HigherOrderThinking_Assessment_Worksheet_DoNotShare_v2.pdf" target="blank"> Higher Order Thinking </a> | 
+    	<a href="https://forms.gle/6HR8va8JmifZshtMA" target="blank"> URL </a> </td> 
+  </tr>
+</table>
+<!--
+<a href="Worksheets/Acquire_ActivityWorksheet_CSoL2019.pdf" target="blank">Acquire</a> | Higher Order Thinking<br>
+<a href="Worksheets/Parse_ActivityWorksheet_CSoL2019.pdf" target="blank">Parse</a> | Higher Order Thinking<br>
+<a href="Worksheets/Mine_ActivityWorksheet_CSoL2019.pdf" target="blank">Mine</a> | Higher Order Thinking<br>
+	<a href="Worksheets/Filter&Represent_ActivityWorksheet_CSoL2019.pdf" target="blank">Filter & Represent</a> | Higher Order Thinking<br>
+<a href="Worksheets/Critique_ActivityWorksheet_CSoL2019.pdf" target="blank">Critique</a> | Higher Order Thinking<br>
+<a href="Worksheets/Refine_ActivityWorksheet_CSoL2019.pdf" target="blank">Refine</a> | Higher Order Thinking<br>
+<a href="Worksheets/Interact_ActivityWorksheet_CSoL2019.pdf" target="blank">Interact</a>Higher Order Thinking<br><br>
+-->
+<hr>
+<a name="PivotTablesAndCharts"</a>
+<h2>Excel Pivot Tables and Charts (Optional) [<a href="#top">Top</a>]</h2>
+<strong><font color="green">Downloading Data files</font></strong>: right-click on the link, select save file as, make sure you save the file with the file extension shown. <br><br>
+Exercise 1 [PDF]: <a href="ExcelPivotTablesCharts/Excel 2010 Step-by-Step - Pivot Tables and Pivot Charts - Exercise 1.pdf" target="blank">
+	Description</a> | 
+Data File: <a href="ExcelPivotTablesCharts/CommodityShipments_Exercise1.xlsx"> Commodity Shipments Exercise 1.xlsx</a> <br>
+Exercise 2 [PDF]: <a href="ExcelPivotTablesCharts/Excel 2010 Step-by-Step - Pivot Tables and Pivot Charts - Exercise 2.pdf" target="blank">
+	Description</a> | 
+Data File: <a href="ExcelPivotTablesCharts/CommodityShipments_Exercise2.xlsx"> Commodity Shipments Exercise 2.xlsx</a> <br>
+Exercise 3 [PDF]: <a href="ExcelPivotTablesCharts/Excel 2010 Step-by-Step - Pivot Tables and Pivot Charts - Exercise 3.pdf" target="blank">
+	Description</a> | 
+Data File: <a href="ExcelPivotTablesCharts/CommodityShipments_Exercise3.xlsx"> Commodity Shipments Exercise 3.xlsx</a> <br>
+Exercies 4 [PDF]: <a href="ExcelPivotTablesCharts/Excel 2010 Step-by-Step - Pivot Tables and Pivot Charts - Exercise 4.pdf" target="blank">
+	Description</a> | 
+Data File: <a href="ExcelPivotTablesCharts/CommodityShipments_Exercise4.xlsx"> Commodity Shipments Exercise 4.xlsx</a> <br>
+<a name="TableauTraining"</a>
+<h2>Tableau Training [<a href="#top">Top</a>]</h2>
+Tableau <a href="https://www.tableau.com/learn/tutorials/on-demand/getting-started-data" target="blank">Tutorials On Demand</a><br><br>
+Tableau Training: 
+<a href="TableauTrainingPartI.html" target="blank">Part I </a> |
+<a href="TableauTrainingPartII.html" target="blank">Part II </a> | 
+<a href="TableauTrainingPartIII.html" target="blank">Part III </a> | 
+<a href="TableauTrainingPartIV.html" target="blank">Part IV </a> | 
+<a href="TableauTrainingPartV.html" target="blank">Part V </a> | 
+<a href="TableauTrainingPartVI.html" target="blank">Part VI </a> | 
+<a href="TableauTrainingPartVII.html" target="blank">Part VII </a> | 
+<a href="TableauTraining_All.html" target="blank">All</a><br>
+<br>
+<strong>Tableau Online Workshop Environment</strong><Br>
+Workspace in the Tableau Online platform have been created for each workshop participant.<br>
+Once you create your TableauID you will be able to access your folder in the Tableau Online environment.<br>
+You will have access to the following folders: your folder saved with your name, and your group folder. <br>
+Only you will have access to your individual folder. Access to the group folder will be shared by group members. <br>
+Workshop organizers have access to ALL folders in the Tableau Online Environment.<br>
+
+ <!--
+<p>
+	<font color="red"><strong>Students can continue using Tableau after the workshop is over by individually requesting their own 
+one-year license through the <a href="http://tableau.com/students" target="blank">Tableau for Students program</a></strong></font>.
+</p>
+
+<strong><font color="green">Downloading Data files</font></strong>: right-click on the link, select save file as, make sure you save the file with the file extension shown. <br><br>
+<table>
+  <tr>
+    <th>Training</th>
+    <th>Topic</th>
+    <th>Video (.mp4)</th>
+    <th>Transcript (.pdf)</th>
+    <th>Data <font color="green">(see Downloading Data Files comment above) </front></th>
+  </tr>
+  <tr><!--Part 1: Getting Started -->
+  <!--
+    <td>Part I (3)</td>
+    <td>Getting Started</td>
+    <td><a href="TableauTrainingPartI/GettingStarted/GettingStartedWithTableauMovie.mp4" target="blank">Getting Started with Tableau</a></td>
+    <td><a href="TableauTrainingPartI/GettingStarted/GettingStartedTranscript.pdf" target="blank">Transcript</a></td>
+    <td>Global Superstore Orders 2016 [ <a href="TableauTrainingPartI/GettingStarted/GlobalSuperstoreOrders2016.xlsx" target="blank">xlsx</a> ]<br> 
+    	  Global Superstore Returns 2016 [ <a href="TableauTrainingPartI/GettingStarted/GlobalSuperstoreReturns2016.csv" target="blank">csv</a> ]</td>
+  </tr>
+  <tr><!--Part 1: The Tableau Interface -->
+  <!--
+    <td> </td>
+    <td>The Tableau Interface</td>
+    <td><a href="TableauTrainingPartI/TheTableauInterface/TheTableauInterfaceMovie.mp4" target="blank">The Tableau Interface</a></td>
+    <td><a href="TableauTrainingPartI/TheTableauInterface/TheTableauInterfaceTranscript.pdf" target="blank">Transcript</a></td>
+    <td>The Tableau Interface Exercise Workbook [ <a href="TableauTrainingPartI/TheTableauInterface/theTableauInterfaceExerciseWorkbook.twbx" target="blank">twbx</a> ]</td>
+  </tr>
+   <tr><!--Part 1: Distributing and Publishing -->
+ <!--
+    <td> </td>
+    <td>Distributing and Publishing</td>
+    <td><a href="TableauTrainingPartI/Distributing&Publishing/DistributingAndPublishing.mp4" target="blank"> Distributing and  Publishing</a></td>
+    <td><a href="TableauTrainingPartI/Distributing&Publishing/distributing_and_publishing_transcript.pdf" target="blank">Transcript</a></td>
+    <td>Distributing and Publishing Exercise Workbook [ <a href="TableauTrainingPartI/Distributing&Publishing/distributing_and_publishing_ExerciseWorkbook.twbx" target="blank">twbx</a> ] </td>
+  </tr>
+  <!-- Training Part II -->
+   <tr><!--Part 2: Getting Started with Data -->
+ <!--
+    <td>Part II (7)</td>
+    <td>Getting Started with Data</td>
+    <td><a href = "TableauTrainingPartII/GettingStartedWithData/GettingStartedWithData_video.mp4" target = "blank">Getting Started with Data</a></td>
+    <td><a href = "TableauTrainingPartII/GettingStartedWithData/Getting Started with Data_Transcript.pdf" target = "blank">Transcript</a></td>
+    <td>Global Superstore Dataset [ <a href = "TableauTrainingPartII/GettingStartedWithData/Global Superstore_DataSet.xls" target = "blank">xls</a> ]</td>
+  </tr>
+  <tr><!--Part 2: Managing Extracts -->
+ <!--
+    <td> </td>
+    <td>Managing Extracts</td>
+    <td><a href = "TableauTrainingPartII/ManagingExtracts/ManagingExtracts_video.mp4" target = "blank">Managing Extracts</a></td>
+    <td><a href = "TableauTrainingPartII/ManagingExtracts/managing_extracts_transcript.pdf" target = "blank">Transcript</a></td>
+    <td>Global Superstore 2016 [ <a href = "TableauTrainingPartII/ManagingExtracts/Global Superstore 2016_DataFile.xlsx" target = "blank">xlxs</a> ] <br>
+    	GS2016 - disc_Datafile [ <a href = "TableauTrainingPartII/ManagingExtracts/GS2016 - disc_DataFile.xlsx" target = "blank">xlxs</a> ] <br>
+    	Managing metadata and extracts Exercise Workbook [ <a href = "TableauTrainingPartII/ManagingExtracts/managing_metadata_and_extracts_ExerciseWorkbook.twbx" target = "blank">twbx</a> ]</td>
+  </tr>
+  <tr><!--Part 2: Data Prep with Text and Excel Files -->
+ <!--
+    <td> </td>
+    <td>Data Prep with Text and Excel Files</td>
+     <td><a href = "TableauTrainingPartII/DataPreWithText&ExcelFiles/DataPrepWithText&ExcelFiles_video.mp4" target = "blank">Data Prep with Text and Excel Files</a></td>
+    <td><a href = "TableauTrainingPartII/DataPreWithText&ExcelFiles/data_prep_with_text_and_excel_files_transcript.pdf" target = "blank">Transcript</a></td>
+    <td>Data Prep - Flights Data File [ <a href = "TableauTrainingPartII/DataPreWithText&ExcelFiles/data_prep_-_flights_DataFile.xlsx" target = "blank">xlsx</a> ] </td>
+  </tr>
+  <tr><!--Part 2: Join Types with Union -->
+ <!--
+    <td> </td>
+    <td>Join Types with Union</td>
+ 		<td><a href = "TableauTrainingPartII/JoinTypesWithUnion/JoinTypesWithUnion_video.mp4" target = "blank">Join Types with Union</a></td>
+    <td><a href = "TableauTrainingPartII/JoinTypesWithUnion/join_types_with_union_transcript.pdf" target = "blank"> Transcript </a></td>
+    <td> - </font></td>
+  </tr>
+  <tr><!--Part 2: Cross-database Joins -->
+ <!--
+    <td> </td>
+    <td>Cross-database Joins</td>
+    <td><a href  = "TableauTrainingPartII/CrossDatabaseJoins/CrossDatabaseJoins_video.mp4" target = "blank" >Cross-database Joins</a></td>
+    <td><a href  = "TableauTrainingPartII/CrossDatabaseJoins/cross-database_joins_transcript.pdf" target = "blank">Transcript </a></td>
+    <td>Products 2016 [ <a href  = "TableauTrainingPartII/CrossDatabaseJoins/Products 2016.csv" target = "blank">csv</a> ]<br>
+    	Sales 2016 [ <a href  = "TableauTrainingPartII/CrossDatabaseJoins/Sales 2016.xlsx" target = "blank">xlsx</a> ] </font></td>
+  </tr>
+  <tr><!--Part 2: Data Blending -->
+ <!--
+    <td> </td>
+    <td>Data Blending</td>
+    <td><a href = "TableauTrainingPartII/DataBlending/DataBlending_video.mp4" target = "blank">Data Blending</a></td>
+    <td><a href = "TableauTrainingPartII/DataBlending/data_blending_transcript.pdf" target = "blank">Transcript</a></td>
+    <td>data blending Exercise Workbook [<a href = "TableauTrainingPartII/DataBlending/data_blending_ExerciseWorkbook.twbx" target = "blank">.twbx</a>]<br>
+    	Coffee Chain [ <a href = "TableauTrainingPartII/DataBlending/Coffee Chain.xlsx" target = "blank">xlsx</a> ]<br>
+    	Office City [ <a href = "TableauTrainingPartII/DataBlending/Office City.xlsx" target = "blank">xlsx</a> ] </td>
+  </tr>
+  <tr><!--Part 2: Connecting to PDFs -->
+ <!--
+    <td> </td>
+    <td>Connecting to PDFs</td>
+ 		<td><a href = "TableauTrainingPartII/ConnectingToPDFs/ConnectingToPDFs_video.mp4" target = "blank">Connecting to PDFs</a></td>
+    <td><a href = "TableauTrainingPartII/ConnectingToPDFs/connecting_to_pdfs_transcript.pdf" target = "blank">Transcript</a></td>
+    <td>AMZN Stock [ <a href = "TableauTrainingPartII/ConnectingToPDFs/AMZN Stock.pdf" target = "blank">pdf</a> ]<br>
+    	NZ Water [ <a href = "TableauTrainingPartII/ConnectingToPDFs/NZ Water.pdf" target = "blank">pdf</a> ]</td>
+  </tr>
+   <!-- Training Part III -->
+   <tr><!--Part 3: Getting Started with Calculations -->
+  <!--
+    <td>Part III (10)</td>
+    <td>Getting Started with Calculations</td>
+    <td><a href = "TableauTrainingPartIII/GettingStartedWithCalculations/GettingStartedWithCalculations_Video.mp4" target = "blank">Getting Started with Calculations</a></td>
+    <td><a href = "TableauTrainingPartIII/GettingStartedWithCalculations/getting_started_with_calculations_transcript.pdf" target = "blank">Transcript</a></td>
+    <td>Getting Started with Calculations Exercise Workbook [ <a href = "TableauTrainingPartIII/GettingStartedWithCalculations/getting_started_with_calculations_ExerciseWorkbook.twbx" target = "blank">twbx</a> ]
+  <tr><!--Part 3: Calculation Syntax -->
+ <!--
+    <td> </td>
+    <td>Calculation Syntax</td>
+    <td><a href = "TableauTrainingPartIII/CalculationSyntax/CalculationSyntax_video.mp4" target = "blank">Calculation Syntax</a></td>
+    <td><a href = "TableauTrainingPartIII/CalculationSyntax/calculation_syntax_transcript.pdf" target = "blank">Transcript</a></td>
+    <td>Calculation Syntax Exercise Workbook [ <a href = "TableauTrainingPartIII/CalculationSyntax/calculation_syntax_ExerciseWorkbook.twbx" target = "blank">twbx</a> ] </td>
+  </tr>
+  <tr><!--Part 3: Introduction to LOD Expressions -->
+  <!--
+    <td> </td>
+    <td>Introduction to LOD Expressions</td>
+    <td><a href = "TableauTrainingPartIII/Intro2LODExpressions/IntroductionToLODExpressions_video.mp4" target = "blank">Introduction to LOD Expressions</a></td>
+    <td><a href = "TableauTrainingPartIII/Intro2LODExpressions/introduction_to_lod_expressions_transcript.pdf" target = "blank">Transcript</a></td>
+    <td>Introduction to LOD Expressions Exercise Workbook [ <a href = "TableauTrainingPartIII/Intro2LODExpressions/introduction_to_lod_expressions_ExerciseWorkbook.twbx" target = "blank">twbx</a> ]</td>
+  </tr>
+  <tr><!--Part 3: Using R within Tableau -->
+  <!--
+    <td> </td>
+    <td>Using R within Tableau</td>
+    <td><a href = "TableauTrainingPartIII/UsingRWithTableau/UsingRWithTableau_video.mp4" target = "blank">Using R within Tableau</a></td>
+    <td><a href = "TableauTrainingPartIII/UsingRWithTableau/using_r_within_tableau_Transcript.pdf" target = "blank">Transcript</a></td>
+    <td>Using R within Tableau Exercise Workbook [ <a href = "TableauTrainingPartIII/UsingRWithTableau/using_r_within_tableau_ExerciseWorkbook.twbx" target = "blank">twbx</a> ]</td>
+  </tr>
+  <tr><!--Part 3: Modifying Calculations in Tableau -->
+  <!--
+    <td> </td>
+    <td>Modifying Calculations in Tableau</td>
+    <td><a href = "TableauTrainingPartIII/ModifyingTableCalculations/ModifyingTableCalculations_video.mp4" target = "blank">Modifying Calculations in Tableau</a></td>
+    <td><a href = "TableauTrainingPartIII/ModifyingTableCalculations/Modifying Table Calculations_Transcript.pdf" target = "blank">Transcript</a></td>
+    <td>Modifying Calculations in Tableau Exercise Workbook [ <a href = "TableauTrainingPartIII/ModifyingTableCalculations/modifying_table_calculations_ExerciseWorkbook.twbx" target = "blank">twbx</a> ] </td>
+  </tr>
+  <tr><!--Part 3: Aggregate Calculations -->
+   <!--
+    <td> </td>
+    <td>Aggregate Calculations</td>
+    <td><a href = "TableauTrainingPartIII/AggregateCalculations/Aggregate-Calculations_video.mp4" target = "blank">Aggregate Calculations</a></td>
+    <td><a href = "TableauTrainingPartIII/AggregateCalculations/Aggregate Calculations.pdf" target = "blank">Transcript</a></td>
+    <td>Aggregate Calculations Exercise Workbook [ <a href = "TableauTrainingPartIII/AggregateCalculations/aggregate_calculations_ExerciseWorkbook.twbx" target = "blank">twbx</a> ] </td>
+  </tr>
+  <tr><!--Part 3: Data Calculations -->
+   <!--
+    <td> </td>
+    <td>Data Calculations</td>
+    <td><a href = "TableauTrainingPartIII/DataCalculations/DataCalculations_video.mp4" target = "blank">Data Calculations</a></td>
+    <td><a href = "TableauTrainingPartIII/DataCalculations/DataCalculations_Transcripts.pdf" target = "blank">Transcript</a></td>
+    <td>Data Calculations Exercise Workbook [ <a href = "TableauTrainingPartIII/DataCalculations/date_calculations_ExerciseWorkbook.twbx" target = "blank">twbx</a> ] </td>
+  </tr>
+   <tr><!--Part 3: Logic Calculations -->
+    <!--
+    <td> </td>
+    <td>Logic Calculations</td>
+    <td><a href = "TableauTrainingPartIII/LogicCalculations/LogicCalculations_video.mp4" target = "blank">Logic Calculations</a></td>
+    <td><a href = "TableauTrainingPartIII/LogicCalculations/LogicCalculations_Transcript.pdf" target = "blank">Transcript</a></td>
+    <td>Logic Calculations Exercise Workbook [ <a href = "TableauTrainingPartIII/LogicCalculations/logic_calculations_ExerciseWorkbook.twbx" target = "blank">twbx</a> ] </td>
+  </tr>
+   <tr><!--Part 3: String Calculations -->
+    <!--
+    <td> </td>
+    <td>String Calculations</td>
+    <td><a href = "TableauTrainingPartIII/StringCalculations/StringCalculations_video.mp4" target = "blank">String Calculations</a></td>
+    <td><a href = "TableauTrainingPartIII/StringCalculations/StringCalculations_Transcript.pdf" target = "blank">Transcript</a></td>
+    <td>String Calculations Exercise Workbook [ <a href = "TableauTrainingPartIII/StringCalculations/string_calculations_ExerciseWorkbook.twbx" target = "blank">twbx</a> ] </td>
+  </tr>
+   <tr><!--Part 3: Type Calculations -->
+    <!--
+    <td> </td>
+    <td>Type Calculations</td>
+    <td><a href = "TableauTrainingPartIII/TypeCalculations/TypeCalculations_video.mp4" target = "blank">Type Calculations</a></td>
+    <td><a href = "TableauTrainingPartIII/TypeCalculations/TypeCalculations_Transcript.pdf" target = "blank">Transcript</a></td>
+    <td>Type Calculations Exercise Workbook [ <a href = "TableauTrainingPartIII/TypeCalculations/type_calculations_ExerciseWorkbook.twbx" target = "blank">twbx</a> ] </td>
+  </tr>
+  <!-- Training Part IV -->
+   <tr><!--Part 4: Getting Started with Dashboards and Stories -->
+  <!--
+    <td>Part IV (6)</td>
+    <td>Getting Started with Dashboards and Stories</td>
+    <td><a href = "TableauTrainingPartIV/GettingStartedWithDashboards&Stories/GettingStartedWithDashboards&Stories_video.mp4" target = "blank">Getting Started with Dashboards and Stories</a></td>
+    <td><a href = "TableauTrainingPartIV/GettingStartedWithDashboards&Stories/getting_started_with_dashboards_and_stories_transcript.pdf" target = "blank">Transcript</a></td>
+    <td>Getting Started with Dashboards and Stories Exercise Workbook [ <a href = "TableauTrainingPartIV/GettingStartedWithDashboards&Stories/getting_started_with_dashboards_and_stories_ExerciseWorkbook.twbx" target = "blank">twbx</a> ] </td>
+  </tr>
+  <tr><!--Part 4: Building a Dashboard -->
+  <!--
+    <td> </td>
+    <td>Building a Dashboard</td>
+    <td><a href = "TableauTrainingPartIV/BuildingADashboard/BuildingADashboard_video.mp4" target = "blank">Building a Dashboard</a></td>
+    <td><a href = "TableauTrainingPartIV/BuildingADashboard/building_a_dashboard_transcript.pdf" target = "blank">Transcript</a></td>
+    <td>Building a Dashboard Exercise Workbook [ <a href = "TableauTrainingPartIV/BuildingADashboard/building_a_dashboard_ExerciseWorkbook.twbx" target = "blank">twbx</a> ] </td>
+  </tr>
+  <tr><!--Part 4: Dashboard Layouts and Formatting -->
+  <!--
+    <td> </td>
+    <td>Dashboard Layouts and Formatting</td>
+    <td><a href = "TableauTrainingPartIV/DashboardLayouts&Formatting/DashboardLayouts&Formatting_video.mp4" target = "blank">Dashboard Layouts and Formatting</a></td>
+    <td><a href = "TableauTrainingPartIV/DashboardLayouts&Formatting/dashboard_layouts_and_formatting_Transcript.zip" target = "blank">Transcript</a></td>
+    <td>Dashboard Layouts and Formatting Exercise Workbook [ <a href = "TableauTrainingPartIV/DashboardLayouts&Formatting/dashboard_layouts_and_formatting_ExerciseWorkbook.twbx" target = "blank">twbx</a> ] </td>
+  </tr>
+  <tr><!--Part 4: Device Designer -->
+  <!--
+    <td> </td>
+    <td>Device Designer</td>
+    <td><a href = "TableauTrainingPartIV/DeviceDesigner/DeviceDesigner_video.mp4" target = "blank">Device Designer</a></td>
+    <td><a href = "TableauTrainingPartIV/DeviceDesigner/device_designer_transcript.pdf" target = "blank">Transcript</a></td>
+    <td>Device Designer Exercise Workbook [ <a href = "TableauTrainingPartIV/DeviceDesigner/device_designer_ExerciseWorkbook.twbx" target = "blank">twbx</a> ] </td>
+  </tr>
+  <tr><!--Part 4: Dashboard Interactivity Using Actions -->
+  <!--
+    <td> </td>
+    <td>Dashboard Interactivity Using Actions</td>
+    <td><a href = "TableauTrainingPartIV/DashboardInteractivityUsingActions/DashboardInteractivityUsingActions_video.mp4" target = "blank">Dashboard Interactivity Using Actions</a></td>
+    <td><a href = "TableauTrainingPartIV/DashboardInteractivityUsingActions/dashboard_interativity_using_actions_transcript.pdf" target = "blank">Transcript</a></td>
+    <td>Dashboard Interactivity Using Actions Exercise Workbook [ <a href = "TableauTrainingPartIV/DashboardInteractivityUsingActions/dashboard_interactivity_using_actions_ExerciseWorkbook.twbx" target = "blank">twbx</a> ] </td>
+  </tr>
+  <tr><!--Part 4: Storypoints -->
+  <!--
+    <td> </td>
+    <td>Storypoints</td>
+    <td><a href = "TableauTrainingPartIV/StoryPoints/StoryPoints_video.mp4" target = "blank">Storypoints</a></td>
+    <td><a href = "TableauTrainingPartIV/StoryPoints/story_points_transcript.pdf" target = "blank">Transcript</a></td>
+    <td>Storypoints Exercise Workbook [ <a href = "TableauTrainingPartIV/StoryPoints/story_points_ExerciseWorkbook.twbx" target = "blank">twbx</a> ] </td>
+  </tr>
+   <!-- Training Part V -->
+    <!--
+   <tr><!--Part 5: Getting Started with Visual Analytics -->
+    <!--
+    <td>Part V (5)</td>
+    <td>Getting Started with Visual Analytics</td>
+    <td><a href = "TableauTrainingPartV/GettingStartedWithVisualAnalytics/GettingStartedWithVisualAnalytics_video.mp4" target = "blank">Getting Started with Visual Analytics</a></td>
+    <td><a href = "TableauTrainingPartV/GettingStartedWithVisualAnalytics/getting_started_in_visual_analytics_transcript.pdf" target = "blank">Transcript</a></td>
+    <td>Getting Started with Visual Analytics Exercise Workbook [ <a href = "TableauTrainingPartV/GettingStartedWithVisualAnalytics/getting_started_in_visual_analytics_ExerciseWorkbook.twbx" target = "blank">twbx</a> ] </td>
+  </tr>
+  <tr><!--Part 5: Drill Down and Hierarchies -->
+   <!--
+    <td> </td>
+    <td>Drill Down and Hierarchies</td>
+    <td><a href = "TableauTrainingPartV/DrillDownHierarchies/DrillDownHierarchies_video.mp4" target = "blank">Drill Down and Hierarchies</a></td>
+    <td><a href = "TableauTrainingPartV/DrillDownHierarchies/drill_down_and_hierarchies_transcript.pdf" target = "blank">Transcript</a></td>
+    <td>Drill Down and Hierarchies Exercise Workbook [ <a href = "TableauTrainingPartV/DrillDownHierarchies/drill_down_and_hierarchies_ExerciseWorkbook.twbx" target = "blank">twbx</a> ] </td>
+  </tr>
+  <tr><!--Part 5: Sorting -->
+   <!--
+    <td> </td>
+    <td>Sorting</td>
+    <td><a href = "TableauTrainingPartV/Sorting/Sorting_video.mp4" target = "blank">Sorting</a></td>
+    <td><a href = "TableauTrainingPartV/Sorting/sorting_v20182_transcript.pdf" target = "blank">Transcript</a></td>
+    <td>Sorting Exercise Workbook [ <a href = "TableauTrainingPartV/Sorting/sorting_v20182_ExerciseWorkbook.twbx" target = "blank">twbx</a> ] </td>
+  </tr>
+  <tr><!--Part 5: Grouping -->
+   <!--
+    <td> </td>
+    <td>Grouping</td>
+    <td><a href = "TableauTrainingPartV/Grouping/Grouping_video.mp4" target = "blank">Grouping</a></td>
+    <td><a href = "TableauTrainingPartV/Grouping/grouping_transcript.pdf" target = "blank">Transcript</a></td>
+    <td>Grouping Exercise Workbook [ <a href = "TableauTrainingPartV/Grouping/grouping_ExerciseWorkbook.twbx" target = "blank">twbx</a> ] </td>
+  </tr>
+  <tr><!--Part 5: Additional Ways to Group -->
+   <!--
+    <td> </td>
+    <td>Additional Ways to Group</td>
+    <td><a href = "TableauTrainingPartV/AdditionalWaysToGroup/AdditionalWaysToGroup_video.mp4" target = "blank">Additional Ways to Group</a></td>
+    <td><a href = "TableauTrainingPartV/AdditionalWaysToGroup/additional_ways_to_group_transcript.pdf" target = "blank">Transcript</a></td>
+    <td>Additional Ways to Group Exercise Workbook [ <a href = "TableauTrainingPartV/AdditionalWaysToGroup/additional_ways_to_group_ExerciseWorkbook.twbx" target = "blank">twbx</a> ] </td>
+  </tr>
+  <!-- Training Part VI -->
+   <!--
+   <tr><!--Part 6: Ways to Filter -->
+    <!--
+    <td>Part VI (5)</td>
+    <td>Ways to Filter</td>
+    <td><a href = "TableauTrainingPartVI/WaysToFilter/WaysToFilter_video.mp4" target = "blank">Ways to Filter</a></td>
+    <td><a href = "TableauTrainingPartVI/WaysToFilter/ways_to_filter_Transcript.zip" target = "blank">Transcript</a></td>
+    <td>Ways to Filter Exercise Workbook [ <a href = "TableauTrainingPartVI/WaysToFilter/ways_to_filter_ExerciseWorkbook.twbx" target = "blank">twbx</a> ] </td>
+  </tr>
+  <tr><!--Part 6: Using the Filter Shelf -->
+   <!--
+    <td> </td>
+    <td>Using the Filter Shelf</td>
+    <td><a href = "TableauTrainingPartVI/UsingTheFilterShelf/UsingTheFilterShelf_video.mp4" target = "blank">Using the Filter Shelf</a></td>
+    <td><a href = "TableauTrainingPartVI/UsingTheFilterShelf/using_the_filter_shelf_Transcript.zip" target = "blank">Transcript</a></td>
+    <td>Using the Filter Shelf Exercise Workbook [ <a href = "TableauTrainingPartVI/UsingTheFilterShelf/using_the_filter_shelf_ExerciseWorkbook.twbx" target = "blank">twbx</a> ] </td>
+  </tr>
+   <tr><!--Part 6: Interactive Filters -->
+    <!--
+    <td></td>
+    <td>Interactive Filters</td>
+    <td><a href = "TableauTrainingPartVI/InteractiveFilters/InteractiveFilters_video.mp4" target = "blank">Interactive Filters</a></td>
+    <td><a href = "TableauTrainingPartVI/InteractiveFilters/interactive_filters_transcript.pdf" target = "blank">Transcript</a></td>
+    <td>Interactive Filters Exercise Workbook [ <a href = "TableauTrainingPartVI/InteractiveFilters/interactive_filters_ExerciseWorkbook.twbx" target = "blank">twbx</a> ] </td>
+  </tr>
+  <tr><!--Part 6: Where Tableau Filters -->
+   <!--
+    <td></td>
+    <td>Where Tableau Filters</td>
+    <td><a href = "TableauTrainingPartVI/WhereTableauFilters/WhereTableauFilters_video.mp4" target = "blank">Where Tableau Filters</a></td>
+    <td>-</td>
+    <td>Where Tableau Filters Exercise Workbook [ <a href = "TableauTrainingPartVI/WhereTableauFilters/where_tableau_filters_ExerciseWorkbook.twbx" target = "blank">twbx</a> ] </td>
+  </tr>
+   <tr><!--Part 6: Parameters -->
+    <!--
+   	<td></td>
+    <td>Parameters</td>
+    <td><a href = "TableauTrainingPartVI/Parameters/Parameters_video.mp4" target = "blank">Parameters</a></td>
+    <td><a href = "TableauTrainingPartVI/Parameters/parameters_transcript.pdf" target = "blank">Transcript</a></td>
+    <td>Parameters Exercise Workbook [ <a href = "TableauTrainingPartVI/Parameters/parameters_ExerciseWorkbook.twbx" target = "blank">twbx</a> ] </td>
+  </tr>
+  <!-- Training Part VII -->
+   <!--
+   <tr><!--Part 7: Getting Started with Mapping -->
+    <!--
+    <td>Part VII (9)</td>
+    <td>Getting Started with Mapping</td>
+    <td><a href = "TableauTrainingPartVII/GettingStartedWithMapping/GettingStartedWithMapping.mp4" target = "blank">Getting Started with Mapping</a></td>
+    <td><a href = "TableauTrainingPartVII/GettingStartedWithMapping/getting_started_with_mapping_transcript.pdf" target = "blank">Transcript</a></td>
+    <td>Getting Started with Mapping Exercise Workbook [ <a href = "TableauTrainingPartVII/GettingStartedWithMapping/getting_started_with_mapping_ExerciseWorkbook.twbx" target = "blank">twbx</a> ] </td>
+  </tr>
+  <tr><!--Part 7: Maps in Tableau -->
+   <!--
+    <td> </td>
+    <td>Maps in Tableau</td>
+    <td><a href = "TableauTrainingPartVII/MapsInTableau/MapsInTableau.mp4" target = "blank">Maps in Tableau</a></td>
+    <td><a href = "TableauTrainingPartVII/MapsInTableau/maps_in_tableau_transcript.pdf" target = "blank">Transcript</a></td>
+    <td>Maps in Tableau Exercise Workbook [ <a href = "TableauTrainingPartVII/MapsInTableau/maps_in_tableau_ExerciseWorkbook.twbx" target = "blank">twbx</a> ] </td>
+  </tr>
+  <tr><!--Part 7: Editing Unrecognized Locations -->
+   <!--
+    <td> </td>
+    <td>Editing Unrecognized Locations</td>
+    <td><a href = "TableauTrainingPartVII/EditingUnrecognizedLocations/EditingUnrecognizedLocations.mp4" target = "blank">Editing Unrecognized Locations</a></td>
+    <td><a href = "TableauTrainingPartVII/EditingUnrecognizedLocations/editing_unrecognized_locations_transcript.pdf" target = "blank">Transcript</a></td>
+    <td>Editing Unrecognized Locations Exercise Workbook [ <a href = "TableauTrainingPartVII/EditingUnrecognizedLocations/editing_unrecognized_locations_ExerciseWorkbook.twbx" target = "blank">twbx</a> ] </td>
+  </tr>
+  <tr><!--Part 7: Expanding Tableau's Mapping Capabilities -->
+   <!--
+    <td> </td>
+    <td>Expanding Tableau's Mapping Capabilities</td>
+    <td><a href = "TableauTrainingPartVII/ExpandingTableausMappingCapabilities/ExpandingTableausMappingCapabilities.mp4" target = "blank">Expanding Tableau's Mapping Capabilities</td>
+    <td><a href = "TableauTrainingPartVII/ExpandingTableausMappingCapabilities/expanding_tableaus_mapping_capabilities_transcript.pdf" target = "blank">Transcript</td>
+    <td>Expanding Tableau's Mapping Capabilities [ <a href = "TableauTrainingPartVII/ExpandingTableausMappingCapabilities/expanding_tableaus_mapping_capabilities_ExerciseWorkbook.twbx" target = "blank">twbx</a> ] <br>
+      Bank of China Branches - Custom Geocoding [ <a href = "TableauTrainingPartVII/ExpandingTableausMappingCapabilities/Bank of China Branches - Custom Geocoding.csv" target = "blank">csv</a> ] 
+    </td>
+    
+  </tr>
+  <tr><!--Part 7: Custom Geocoding -->
+   <!--
+    <td> </td>
+    <td>Custom Geocoding</td>
+    <td><a href = "TableauTrainingPartVII/CustomGeocoding/CustomGeocoding.mp4" target = "blank">Custom Geocoding</a></td>
+    <td><a href = "TableauTrainingPartVII/CustomGeocoding/custom_geocoding_transcript.pdf" target = "blank">Transcript</a></td>
+    <td>Custom Geocoding Exercise Workbook [ <a href = "TableauTrainingPartVII/CustomGeocoding/custom_geocoding_ExerciseWorkbook.twbx" target = "blank">twbx</a> ] <br>
+        Bank of China Branches - Custom Geocoding [ <a href = "TableauTrainingPartVII/CustomGeocoding/Bank of China Branches - Custom Geocoding.csv" target = "blank">csv</a> ] <br>
+        Australian Small Towns [ <a href = "TableauTrainingPartVII/CustomGeocoding/Australian Small Towns.csv" target = "blank">csv</a> ]
+    </td>
+  </tr>
+  <tr><!--Part 7: Polygon Maps -->
+   <!--
+    <td> </td>
+    <td>Polygon Maps</td>
+    <td><a href = "TableauTrainingPartVII/PolygonMaps/PolygonMaps.mp4" target = "blank">Polygon Maps</a></td>
+    <td><a href = "TableauTrainingPartVII/PolygonMaps/polygon_maps_transcript.pdf" target = "blank">Transcript</a></td>
+    <td>Polygon Maps Exercise Workbook [ <a href = "TableauTrainingPartVII/PolygonMaps/polygon_maps_ExerciseWorkbook.twbx" target = "blank">twbx</a> ] </td>
+  </tr>
+  <tr><!--Part 7: Mapbox Integration -->
+   <!--
+    <td> </td>
+    <td>Mapbox Integration</td>
+    <td><a href = "TableauTrainingPartVII/MapboxIntegration/MapboxIntegration.mp4" target = "blank">Mapbox Integration</a></td>
+    <td><a href = "TableauTrainingPartVII/MapboxIntegration/mapbox_integration_transcript.pdf" target = "blank">Transcript</a></td>
+    <td>CHANGE NAME [<a href = "TableauTrainingPartVII/MapboxIntegration/mapbox_integration_ExerciseWorkbook.twbx" target = "blank">.twbx</a>] </td>
+  </tr>
+  <tr><!--Part 7: WMS: Web Mapping Service -->
+   <!--
+    <td> </td>
+    <td>WMS: Web Mapping Service</td>
+    <td><a href = "TableauTrainingPartVII/WMS_WebMappingService/WebMappingService.mp4" target = "blank">WMS: Web Mapping Service</a></td>
+    <td><a href = "TableauTrainingPartVII/WMS_WebMappingService/web_mapping_services_Transcript.pdf" target = "blank">Transcript</a></td>
+    <td>
+        WMS: Web Mapping Service Exercise Workbook [ <a href = "TableauTrainingPartVII/WMS_WebMappingService/wms_-_web_mapping_services_ExerciseWorkbook.twbx" target = "blank">twbx</a> ] <br>
+        World Map Additional File [ <a href = "TableauTrainingPartVII/WMS_WebMappingService/world_map_AdditionalFile.tms" target = "blank">tms</a> ] 
+    </td>
+  </tr>
+  <tr><!--Part 7: Background Images -->
+   <!--
+    <td> </td>
+    <td>Background Images</td>
+    <td><a href = "TableauTrainingPartVII/BackgroundImages/BackgroundImages.mp4" target = "blank">Background Images</a></td>
+    <td><a href = "TableauTrainingPartVII/BackgroundImages/background_images_transcript.pdf" target = "blank">Transcript</a></td>
+    <td>Background Images Exercise Workbook [ <a href = "TableauTrainingPartVII/BackgroundImages/background_images_ExerciseWorkbook.twbx" target = "blank">twbx</a> ] <br>
+        Hong Kong MTR [ <a href = "TableauTrainingPartVII/BackgroundImages/hong_kong_mtr.png" target = "blank">png</a> ] <br>
+        Hong Kong MTR Coordinate Data [ <a href = "TableauTrainingPartVII/BackgroundImages/hong_kong_mtr_coordinate_data.xlsx" target = "blank">xlsx</a> ] 
+    </td>
+  </tr>
+</table>
+-->
+[<a href="#top">Top</a>]
+<hr><br>
+<center>From the <br><a href="https://byrdvislab.wixsite.com/website" target="blank">Byrd Data Visualization Lab </a></center>
+<br>
+</body>
+</html>

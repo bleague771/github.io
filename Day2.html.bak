@@ -1,0 +1,128 @@
+﻿<!DOCTYPE HTML>
+<!--
+	Industrious by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>BPViz 2020: Day 2</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+<a name="top"></a>
+		<!-- Header -->
+			<header id="header">
+				<a class="logo" href="index.html">BPViz 2020: Day 2</a>
+				<nav>
+					<a href="#menu">Menu</a>
+				</nav>
+			</header>
+
+				<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="index.html#top">Home</a></li>
+					<li><a href="index.html#agenda">Agenda</a></li>
+					<li><a href="resources.html#top">Resources</a></li>
+					<!--<li><a href="elements.html">Elements</a></li>
+					<li><a href="generic.html">Generic</a></li>-->
+					<li><a href="Day1.html#top">Day 1: July 21, 2020</a></li>
+					<li><a href="Day2.html#top">Day 2: July 22, 2020</a></li>
+					<li><a href="Day3.html#top">Day 3: July 23, 2020</a></li>
+					<li><a href="Day4.html#top">Day 4: July 24, 2020</a></li>
+				</ul>
+			</nav>
+
+		<!-- Heading -->
+			<div id="heading" >
+				<h1>Information Visualization</h1>
+			</div>
+
+		<!-- Main -->
+			<section id="main" class="wrapper">
+				<div class="inner">
+					<div class="content">
+						<header>
+							<h2>You've Got Data, Now What?</h2>
+						</header>
+						<p>Day: Wednesday, July 22, 2020 <br>
+						Time: 1PM - 3 PM (CST)/2PM - 4PM (EST) <Br>
+						Skill level: Beginner/Intermediate</p>
+						<h3>A Tour through the Visualization Zoo</h3>
+						<p>As discussed on Day 1, data dictates the type of tools used to gain insight. 
+							In this training we explore the abundance of visualization applications to fit different visualization needs, chart types, layouts, principles
+							of data visualization.</p>
+						<li><a href="https://policyviz.com/2018/08/07/dataviz-cheatsheet/" target="blank">Core Principles of Data Visualization</a></li>
+						<li><a href="https://extremepresentation.com/visualization-taxonomies/" target="blank">Visualization Taxonomies</a></li><li><a href="https://stephanieevergreen.com/updated-data-visualization-checklist/" target="blank">Data Visualization Check List</a></li>
+						<li><a href="https://datavizcatalogue.com/" target="blank">Data Visualization Catalog</a></li>
+						<li><a href="https://coolinfographics.com/dataviz-guides" target="blank">Data Visualization Reference Guides</a></li>
+						<br>
+						<p>Heer, Jeffrey, Michael Bostock, and Vadim Ogievetsky. "<a href="https://homes.cs.washington.edu/~jheer/files/zoo/" 
+							 target="blank">A Tour through the Visualization Zoo</a>." Communications of the ACM 53.6 (2010): 59-67.
+							 [<a href="https://drive.google.com/file/d/1aOk0eQuZ_vyDb89bbDtDAALPoPNiGbJY/view?usp=sharing" target="blank">Paper</a>].</p>
+										
+						<hr />
+						<!--<h3>Tools and Applications</h3>
+						<li><a href="https://gallery.keshif.me/VisTools" target="blank">Data Visualization Tools and Books</a></li>
+						-->
+						<h3>Getting Started with Tableau</h3>
+						<li>Tableau Desktop [ <a href="https://www.tableau.com/en-gb/products/trial">14-day trial</a> ]</li>
+						<li><a href="TableauTrainingModules.htmml">Tableau Training</a></li>
+						<li><a href="TroubleShootingTableau.html">Troubleshooting Tableau</a></li>
+						<hr />
+						<p>Webinar Slides | Webinar Feedback: Day 2</p>			
+						<p>Previous: <a href="Day1.html">Day 1</a> | Day2 | Next: <a href="Day3.html" #top>Day 3</a></p>		
+						<p><a href="index.html #Agenda">Back to Webinar Agenda</a></p>				
+					</div>
+					
+				</div>
+			</section>
+
+		<!-- Footer -->
+		<!--
+			<footer id="footer">
+				<div class="inner">
+					<div class="content">
+						<section>
+							<h3>Accumsan montes viverra</h3>
+							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing. Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing sed feugiat eu faucibus. Integer ac sed amet praesent. Nunc lacinia ante nunc ac gravida.</p>
+						</section>
+						<section>
+							<h4>Sem turpis amet semper</h4>
+							<ul class="alt">
+								<li><a href="#">Dolor pulvinar sed etiam.</a></li>
+								<li><a href="#">Etiam vel lorem sed amet.</a></li>
+								<li><a href="#">Felis enim feugiat viverra.</a></li>
+								<li><a href="#">Dolor pulvinar magna etiam.</a></li>
+							</ul>
+						</section>
+						<section>
+							<h4>Magna sed ipsum</h4>
+							<ul class="plain">
+								<li><a href="#"><i class="icon fa-twitter">&nbsp;</i>Twitter</a></li>
+								<li><a href="#"><i class="icon fa-facebook">&nbsp;</i>Facebook</a></li>
+								<li><a href="#"><i class="icon fa-instagram">&nbsp;</i>Instagram</a></li>
+								<li><a href="#"><i class="icon fa-github">&nbsp;</i>Github</a></li>
+							</ul>
+						</section>
+					</div>
+					<div class="copyright">
+						&copy; Untitled. Photos <a href="https://unsplash.co">Unsplash</a>, Video <a href="https://coverr.co">Coverr</a>.
+					</div>
+				</div>
+			</footer>
+-->
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

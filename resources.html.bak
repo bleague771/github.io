@@ -1,0 +1,168 @@
+﻿<!DOCTYPE HTML>
+<!--
+	Industrious by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>BPViz Webinar Series - Resources </title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+<a name="top"></a>
+		<!-- Header -->
+			<header id="header">
+				<a class="logo" href="index.html">BPViz Webinar Series</a>
+				<nav>
+					<a href="#menu">Menu</a>
+				</nav>
+			</header>
+
+			<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="index.html#top">Home</a></li>
+					<li><a href="index.html#agenda">Agenda</a></li>
+					<li><a href="resources.html#top">Resources</a></li>
+					<!--<li><a href="elements.html">Elements</a></li>
+					<li><a href="generic.html">Generic</a></li>-->
+					<li><a href="Day1.html#top">Day 1: July 21, 2020</a></li>
+					<li><a href="Day2.html#top">Day 2: July 22, 2020</a></li>
+					<li><a href="Day3.html#top">Day 3: July 23, 2020</a></li>
+					<li><a href="Day4.html#top">Day 4: July 24, 2020</a></li>
+				</ul>
+			</nav>
+
+		<!-- Heading -->
+			<div id="heading" >
+				<h1>Resources</h1>
+			</div>
+
+		<!-- Main -->
+			<section id="main" class="wrapper">
+				<div class="inner">
+					<div class="content">
+						<header>
+							<h2>Webinar Tools and Applications</h2>
+						</header>
+						<strong><p>Participants are encouraged to check with their university to find offerings available at their institutions for availabity of software.</p></strong>
+						<h3>Data pre-processing</h3>
+						<p>Pivot Tables</p>
+						<ul>
+							<li>Pivot Tables Exercise 1: 
+								<a href="https://drive.google.com/file/d/1i142oQFKWsmaUjTcvibcL3ss41nrk_eq/view?usp=sharing" target="blank">PDF</a> | 
+								<a href="https://drive.google.com/file/d/1ixAzGku3CAxMkZzvhZRvtQ-gPLqPwy1j/view?usp=sharing">Data File</a> </li>
+							<li>Pivot Tables Exercise 2: 
+								<a href="https://drive.google.com/file/d/1c5a0CuKIVZIFhlnOplQHQ-PnIHGM2uuY/view?usp=sharing" target="blank">PDF</a>| 
+								<a href="https://drive.google.com/file/d/1GgnspPxhg46i-PRxC8UcVOTn2ZExQYQL/view?usp=sharing" target="blank">Data File</a> </li>		
+							<li>Pivot Tables Exercise 3: 
+								<a href="https://drive.google.com/file/d/1ce4QThu8PzEpphvOVQ43r6VEJHkZ_RZe/view?usp=sharing" target="blank">PDF</a> | 
+								<a href="https://drive.google.com/file/d/1oGEwP9Qs3jvtEwzdOCZuxT2v4lv-7xX4/view?usp=sharing">Data File</a> </li>					
+							<li>Pivot Tables Exercise 4: 
+								<a href="https://drive.google.com/file/d/1mngKXci-O4F2Iremcz-tbfkLEkCaT21j/view?usp=sharing" target="blank">PDF</a> |  
+								<a href="https://drive.google.com/file/d/1t7jkVfJ_09s5cwTGSQqaVV6Qs_R0_c0i/view?usp=sharing">Data File</a></li>		
+						</ul> 
+						<p>Using Excel</p> 
+						<a href="https://www.tutorialspoint.com/excel_pivot_tables/excel_pivot_tables_tutorial.pdf" target="blank">Pivot Tables Tutorial</a> <br>
+						<a href="https://resources.oreilly.com/examples/9780735626942-files" target="blank">Microsoft Excel 2010 Step-by-step</a> <br><br>
+						<strong>How to install and use Microsoft Excel:</strong><br> 
+						
+						<a href="https://www.makeuseof.com/tag/install-microsoft-excel-linux/" target="blank">Linux</a> | 
+						Windows | 
+						<a href="https://onthehub.com/download/free-software/microsoft-office-2016-for-mac-for-students/" target="blank">Mac</a> (Microsoft Office 2016) <br><br>
+						
+						<a href="https://cran.r-project.org/web/packages/pivottabler/vignettes/v00-vignettes.html" target="blank">Create Pivot Tables in R</a>
+						<hr />
+						<!-- Information Visualization Tools -->
+						<h3>Information Visualization</h3>
+						Tableau [ <a href="https://www.tableau.com/en-gb/products/trial">14-day trial</a> ]</p>
+						
+						<hr />
+						<!-- Scientific Visualization -->
+						<h3>Scientific Visualization</h3>
+						 Paraview [ <a href="https://www.paraview.org/">Download</a> ]</p>
+
+						<hr />
+						<!-- Supplemental Materials -->
+						<h3>Supplemental webinar materials</h3>
+						<p><a href="https://bluewaters.ncsa.illinois.edu/webinars/visualization/introduction" target="blank">Introduction to Data Visualization</a> [Blue Waters Webinar: 1 hr]<br>
+							<strong>Summary</strong>: This informative seminar provides an overview of data visualization by exploring the underlying principles of 
+							visualization and set the stage for other introductory data visualization seminars. The goal 
+							of the seminar is to equip participants with a summary of visualization capabilities that will 
+							ultimately help them to identify their data visualization needs and the tools available to 
+							visualize their data. Topics will include an overview of the visualization process, visualization 
+							applications, a review of different types of visualization tools for different types of data and a 
+							review of the different areas of data visualization (info vis, sci vis, bio vis, geo vis, cyber 
+							security vis).</p>
+						<p><a href="https://bluewaters.ncsa.illinois.edu/webinars/visualization/paraview" target="blank">Introduction to ParaView</a> [Blue Waters Webinar: 1 hr]<br>
+							<strong>Summary</strong>: This seminar provides an introduction to scientific visualization using ParaView. 
+							An overview of the visualization process is presented by exploring the scientific visualization pipeline 
+							followed by hands on experience with ParaView. ParaView is an open-source, multi-platform, parallel data 
+							analysis and visualization application built upon the Visualization Toolkit (VTK) Library. Participants 
+							will work with a small dataset (provided) to become familiar with ParaView functions and capabilities.<br>
+							<br> Data files: <br>
+							<a href="https://drive.google.com/uc?id=0B8kqv2lq4I58MU82V1hSelhjVnM&export=download">headsq.vti</a><Br>
+							<a href="https://drive.google.com/uc?authuser=0&id=0B8kqv2lq4I58aXBmc0dVOXVXZm8&export=download">Rectgrd2.vtk</a></p>
+						<hr />
+						<h2>Additional Readings</h2>
+						<p>Kurkowski, P. (2007). 
+							<a href="https://drive.google.com/file/d/18hs0Sz2y-e91zY0j5L2PNNzNYBLYXUPa/view?usp=sharing" target="blank">7 things you should know about data visualization</a>. EDUCAUSE Learning Initiative. </p>
+						<p> Educause Learning Initiative. (2010). 
+							<a href="https://drive.google.com/file/d/1yOV53WBC7ve_oMBSjjuZa083msKh2mww/view?usp=sharing" target="blank"> 7 things you should know about data visualization II</a>.</p>
+						<p>Quispel, A., & Maes, A. (2014). <a href="https://soihub.org/site/assets/files/6656/pie-or-cupcakes-quispel_maes_2014.pdf" target="blank">Would you prefer pie or cupcakes?</a> 
+						Preferences for data visualization designs of professionals and laypeople in graphic design. Journal of Visual Languages & Computing, 25 (2), 107-116.</p>
+						<p>
+							Laramee, R. S. (2011). <a href="https://drive.google.com/file/d/1y2-Vmr_DDAd6hj7mCXBvY6nOW5JF5kGW/view?usp=sharing" target="blank">How to read a visualization research paper: Extracting the essentials</a>. IEEE computer graphics and applications, 31(3), 78-82.
+						</p>
+					</div>
+				</div>
+			</section>
+
+		<!-- Footer -->
+		<!--
+			<footer id="footer">
+				<div class="inner">
+					<div class="content">
+						<section>
+							<h3>Accumsan montes viverra</h3>
+							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing. Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing sed feugiat eu faucibus. Integer ac sed amet praesent. Nunc lacinia ante nunc ac gravida.</p>
+						</section>
+						<section>
+							<h4>Sem turpis amet semper</h4>
+							<ul class="alt">
+								<li><a href="#">Dolor pulvinar sed etiam.</a></li>
+								<li><a href="#">Etiam vel lorem sed amet.</a></li>
+								<li><a href="#">Felis enim feugiat viverra.</a></li>
+								<li><a href="#">Dolor pulvinar magna etiam.</a></li>
+							</ul>
+						</section>
+						<section>
+							<h4>Magna sed ipsum</h4>
+							<ul class="plain">
+								<li><a href="#"><i class="icon fa-twitter">&nbsp;</i>Twitter</a></li>
+								<li><a href="#"><i class="icon fa-facebook">&nbsp;</i>Facebook</a></li>
+								<li><a href="#"><i class="icon fa-instagram">&nbsp;</i>Instagram</a></li>
+								<li><a href="#"><i class="icon fa-github">&nbsp;</i>Github</a></li>
+							</ul>
+						</section>
+					</div>
+					<div class="copyright">
+						&copy; Untitled. Photos <a href="https://unsplash.co">Unsplash</a>, Video <a href="https://coverr.co">Coverr</a>.
+					</div>
+				</div>
+			</footer>
+-->
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
